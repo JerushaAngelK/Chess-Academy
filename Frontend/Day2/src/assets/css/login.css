@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Lobster&family=Micro+5&display=swap');
+body{
+  padding: 0;
+  margin:0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+} 
+.trial1{
+  align-items: center;
+  margin-left: 25%;
+}
+.trial2{
+  margin-left: 15%;
+}
+.firsts{
+  margin-top: -2%;
+
+
+    background-image: url('https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1643383.jpg&fm=jpg');
+    /* background-image: url('https://images.unsplash.com/photo-1642060731141-3899c9ad2308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJhbmtzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60'); */
+    background-position: fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    height: auto;
+    size: 100%;
+    height: fit-content;
+    min-height:100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+    /* background-position: center; */
+
+}
+.first{
+    font-weight: 200;
+    box-shadow: inset 0 0 0 10vmax rgba(0, 0, 0, .5);
+    background-position: absolute;
+    backface-visibility: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 1px;
+    box-shadow: 0 0 20% 0 rgba(0, 0, 0, 0.4), 0 0 0 2000px rgba(12, 13, 31, 0.3);
+    
+}
+.second{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+    color: rgb(255, 255, 255);
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background: transparent;
+    text-shadow: 0 0 10px white;
+    /* width: 10%; */
+    white-space: nowrap;
+    margin-left: 15%;
+    
+  
+}
+.seconds{
+    color: rgb(24, 23, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-shadow: 0 0 10px white;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.third{
+    font-stretch: semi-condensed;
+}
+.signini{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15% 50% 30%;
+    border: 2% solid rgb(8, 8, 8);
+    padding-left: 20%; 
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width: 250%;
+    height: 15%; 
+}
+.signinl{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: large;
+    padding-bottom: 15%;
+}
+h4{
+    color:aliceblue
+}
+h1 {
+    font: 500 38px "Lobster", cursive;
+    text-transform: uppercase;
+  }
+.signup1{
+    font-style: oblique;
+    color: rgb(227, 228, 229);
+    font-weight: 100;
+    margin-left: 40%;
+  }
+.two{
+  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/287/720/53/room-sofa-plant-windows-wallpaper-preview.jpg'); */
+  background-image: url('https://images.unsplash.com/photo-1601041084273-6114cad589d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60');
+  min-height:100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior:smooth;
+  padding-bottom: 30px;
+}
+.first{
+  font-weight: 300;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .5);
+  background-position: absolute;
+  backface-visibility: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 0 0 2000px rgba(12, 13, 31, 0.3);
+  /* left: 50%; */
+  position: absolute;
+  /* top: 50%; */
+  transform: translate3d(-50%, -50%, 0) scale(1, 1);
+  /* width: 90%; */
+  margin-top: 200px;
+  margin-right: 60px;
+  margin-left: 1000px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 3px;
+  
+}
+/* .second{
+  color: rgb(24, 23, 23);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: transparent;
+  text-shadow: 0 0 10px white;
+  width: 30%;
+  padding-top: 2px;
+} */
+.signinl{
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-size: large;
+}
+.fifth{
+  padding-top: 0px;
+  margin-top: -10%;
+}
