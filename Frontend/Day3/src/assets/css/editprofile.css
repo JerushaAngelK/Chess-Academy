@@ -1,0 +1,10 @@
+/* EditProfileModal.css */
+.MuiModal-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MuiBox-root {
+    outline: none;
+  }
