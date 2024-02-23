@@ -1,0 +1,86 @@
+/* EditProfileModal.css */
+.MuiModal-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MuiBox-root {
+    outline: none;
+  }
+  .profile-image {
+    width:  100px; /* Adjust the size as needed */
+    height:  100px; /* Adjust the size as needed */
+    border-radius:  50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-right:  10px; /* Add some space between the image and the upload button */
+  }
+  
+  /* Style for the image icon */
+  .image-icon {
+    position: absolute;
+    bottom:  0;
+    right:  0;
+    background-color: rgba(255,  255,  255,  0.8); /* Semi-transparent background */
+    border-radius:  50%; /* Make the icon circular */
+    padding:  5px; /* Add some padding */
+  }
+  .profile-image {
+    width:   100px; /* Adjust the size as needed */
+    height:   100px; /* Adjust the size as needed */
+    border-radius:   50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-right:   10px; /* Add some space between the image and the upload button */
+  }
+  
+  .edit-icon {
+    position: absolute;
+    top:  0;
+    right:  0;
+    background-color: rgba(255,  255,  255,  0.8); /* Semi-transparent background */
+    border-radius:  50%; /* Make the icon circular */
+    padding:  5px; /* Add some padding */
+  }
+  
+  .options-list {
+    position: absolute;
+    bottom:  0;
+    right:  0;
+    background-color: rgba(255,  255,  255,  0.8); /* Semi-transparent background */
+    border-radius:  50%; /* Make the icon circular */
+    padding:  5px; /* Add some padding */
+    display: flex;
+    flex-direction: column;
+    gap:  5px;
+  }
+  .profile-image-placeholder {
+    width:   100px; /* Adjust the size as needed */
+    height:   100px; /* Adjust the size as needed */
+    border-radius:   50%; /* Make the icon circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #999; /* Darker grey for the icon */
+  }
+  
+  .edit-icon {
+    position: absolute;
+    top:   0;
+    right:   0;
+    background-color: rgba(255,   255,   255,   0.8); /* Semi-transparent background */
+    border-radius:   50%; /* Make the icon circular */
+    padding:   5px; /* Add some padding */
+  }
+  
+  .options-list {
+    position: absolute;
+    bottom:   0;
+    right:   0;
+    background-color: rgba(255,   255,   255,   0.8); /* Semi-transparent background */
+    border-radius:   50%; /* Make the icon circular */
+    padding:   5px; /* Add some padding */
+    display: flex;
+    flex-direction: column;
+    gap:   5px;
+  }

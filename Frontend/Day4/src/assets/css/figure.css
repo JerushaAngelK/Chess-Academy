@@ -1,0 +1,32 @@
+.figure-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .parta {
+    position: relative;
+    width:  50%; /* Adjust as needed */
+  }
+  
+  .partb {
+    width:  50%; /* Adjust as needed */
+  }
+  
+  .figure-image-container {
+    position: relative;
+  }
+  
+  .edit-icon {
+    position: absolute;
+    bottom:  0;
+    right:  0;
+  }
+.figure-image {
+    border-radius:  50%; /* Adjust the percentage to control how rounded the edges are */
+}
+.red-button {
+    border-radius:  50%; /* This will make the button round */
+    box-sizing: border-box;
+    border-style:solid;
+  }

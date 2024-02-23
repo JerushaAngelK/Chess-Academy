@@ -1,0 +1,75 @@
+.seey {
+    display: flex;
+    flex-direction: column;
+    min-height:  100vh;
+  }
+  
+  /* Styles for the LocationSelector component */
+  .location-selector {
+    background-color: #A67B5B; /* Same background color as Drawer.jsx */
+    color: white; /* Text color */
+    padding:  20px; /* Padding around the location selector */
+  }
+  
+  /* Styles for the CountryCard component */
+  .country-card {
+    position: relative;
+    background-color: #A67B5B;
+    color: white;
+    padding:  20px;
+    border-radius:  10px;
+    box-shadow:  0  4px  8px  0 rgba(0,  0,  0,  0.2),  0  6px  20px  0 rgba(0,  0,  0,  0.19);
+    margin-bottom:  20px;
+    overflow: hidden;
+    cursor: pointer;
+    width:  200px; /* Fixed width for the cards */
+    height:  200px; /* Fixed height for the cards */
+    transition: opacity  0.3s ease-in-out;
+  }
+  
+  .country-card-image {
+    width:  100%;
+    height:  100%;
+    object-fit: cover; /* Ensure the image covers the entire card */
+  }
+  
+  .caption-card {
+    position: absolute;
+    top:  0;
+    left:  0;
+    right:  0;
+    bottom:  0;
+    background-color: rgba(255,  255,  255,  0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity:  0;
+    transition: opacity  0.3s ease-in-out;
+  }
+  
+  .country-card.clicked .caption-card {
+    opacity:  1;
+  }
+  
+  .country-name {
+    position: absolute;
+    top:  50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+    font-size:  24px;
+    font-weight: bold;
+    color: white;
+    z-index:  1;
+    opacity:  0; /* Initially hidden */
+    transition: opacity  0.3s ease-in-out;
+  }
+  
+  .country-card:hover .country-name {
+    opacity:  1; /* Make the country name visible on hover */
+  }
+  
+  /* Styles for the selected country card */
+  .selected-country-card {
+    background-color: #23a81e; /* Lighter shade of brown/sandal for the selected country */
+  }

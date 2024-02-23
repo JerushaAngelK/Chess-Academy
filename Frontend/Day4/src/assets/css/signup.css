@@ -1,0 +1,70 @@
+.secondx{
+    /* background-image: url('../images/Login2.png'); */
+    background-image: url('../images/Login3.jpg');
+    background-position: fixed center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    height: auto;
+    size: 100%;
+    height: fit-content;
+    min-height:100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+}
+body{
+  padding: 0;
+  margin:0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.form1{
+  font-weight: 300;
+  /* box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .5); */
+  background-position: absolute;
+  backface-visibility: hidden;
+  background: rgba(191, 193, 221, 0.22);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(243, 244, 248, 0.9), 0 0 0 2000px rgba(237, 237, 239, 0.942);
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0) scale(1, 1);
+  margin-top: 300px;
+  margin-right: 1000px;
+  margin-left: 250px;
+  margin-bottom: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.form1 {
+  /* ... existing styles ... */
+  backdrop-filter: blur(10px); /* Create a glass-like effect */
+  background-color: rgba(255,  255,  255,  0.1); /* Semi-transparent background */
+  color: #492d08; /* Lighter shade of brown/sandal */
+}
+
+/* ... other styles ... */
+
+/* Style for form elements */
+.form-columns .form-column {
+  color: #492d08 /* Lighter shade of brown/sandal */
+}
+
+/* Style for form labels */
+.form-columns label {
+  color: #efe9e2; /* Lighter shade of brown/sandal */
+}
+
+/* Style for form helper text */
+.form-columns .MuiFormHelperText-root {
+  color: #D2B48C; /* Lighter shade of brown/sandal */
+}
+
+/* Style for form input */
+.form-columns .MuiInputBase-input {
+  color: #D2B48C; /* Lighter shade of brown/sandal */
+}
