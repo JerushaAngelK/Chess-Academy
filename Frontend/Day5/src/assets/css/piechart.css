@@ -1,0 +1,12 @@
+.piechart-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.piea{
+    width: 50%;
+    float: lrft;
+}
+ .pieb{   
+    width: 50%;
+    float: right;
+}

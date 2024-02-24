@@ -1,0 +1,28 @@
+.container {
+  width:  100%;
+  overflow-x: hidden;
+  margin-top:  20%;
+  margin-left: 40%;
+}
+
+.horizontal-scrolling-items {
+  color:  #5a450c;;
+  display: flex;
+  font-size:  100px;
+  width:  1000px;
+  animation-name: infiniteScroll;
+  animation-duration:  12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.horizontal-scrolling-items__item {
+  margin-right: 0%;
+  white-space: nowrap;
+}
+
+@keyframes infiniteScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
