@@ -1,0 +1,4 @@
+Admin Components
+  User Components
+  Dashboards
+  Lazy Components
