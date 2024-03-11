@@ -1,0 +1,11 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+.img1{
+    width: 520;
+    height: 150px;
+    object-fit: cover;
+    align-items: center;
+    position: static;
+    pointer-events: visible;
+    object-position: left;
+    
+    }

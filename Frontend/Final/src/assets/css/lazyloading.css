@@ -1,0 +1,10 @@
+.loading{
+    background-image: url("../images/Mink1.jpg");
+    align-items: center;
+    font-size: medium;
+    color: darkgoldenrod;
+    margin-top: 50%;
+    margin-left: 20%;
+    padding-left: 30%;
+    margin-left: 40%;
+}

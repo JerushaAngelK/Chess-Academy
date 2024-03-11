@@ -1,0 +1,27 @@
+/* Styles for the footer container */
+.footer-container {
+    background-color: #A67B5B; /* Same background color as Drawer.jsx */
+    color: white; /* Text color */
+    padding:  20px; /* Padding around the footer content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styles for the footer links */
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right:  10px; /* Space between links */
+  }
+  
+  /* Styles for the footer copyright text */
+  .footer-copyright {
+    font-size:  14px; /* Font size for copyright text */
+  }
+  
+  /* Styles for the footer social icons */
+  .footer-social-icon {
+    color: white;
+    margin-right:  1px; /* Space between social icons */
+  }

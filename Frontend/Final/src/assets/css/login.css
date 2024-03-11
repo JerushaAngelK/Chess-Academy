@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Lobster&family=Micro+5&display=swap');
+body{
+  padding: 0;
+  margin:0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+} 
+.trial1{
+  align-items: center;
+  margin-left: 25%;
+}
+.trial2{
+  margin-left: -4%;
+}
+.firsts{
+    /* margin-top: -2%; */
+    background-image: url('../images/Login1.jpg');
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/217/257/230/5bd2c91aee47c-wallpaper-preview.jpg');
+    background-position: fixed center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    height: auto;
+    size: 100%;
+    height: fit-content;
+    min-height:100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+
+}
+
+.second{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+    /* color: rgb(255, 255, 255); */
+    color: #FEBE10;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background: transparent;
+    text-shadow: 0 0 10px white;
+    /* width: 10%; */
+    white-space: nowrap;
+    margin-left: 15%;
+    
+  
+}
+.seconds{
+    color: rgb(24, 23, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-shadow: 0 0 10px white;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.third{
+    font-stretch: semi-condensed;
+}
+.signini{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15% 50% 30%;
+    border: 2% solid rgb(8, 8, 8);
+    padding-left: 20%; 
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width: 250%;
+    height: 15%; 
+}
+.signinl{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: large;
+    padding-bottom: 15%;
+}
+.signupl {
+  color: black; /* Make the text black */
+  font-family: 'Times New Roman', Times, serif; /* Change the font style */
+  display: inline-block; /* Make the text inline */
+  margin-right:  10px; /* Add some space between the text and the button */
+}
+
+.signup-button {
+  background-color: #4CAF50; /* Green background for the button */
+  border: none;
+  color: white; /* White text for the button */
+  padding:  15px  32px; /* Padding for the button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; /* Make the button inline */
+  font-size:  16px;
+  margin:  4px  2px;
+  cursor: pointer;
+  border-radius:  4px; /* Rounded corners for the button */
+}
+
+.signup-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+h1 {
+    font: 500 38px "Lobster", cursive;
+    text-transform: uppercase;
+  }
+.signup1{
+    font-style: oblique;
+    color: rgb(13, 13, 13);
+    font-weight: 100;
+    margin-left: 40%;
+  }
+.two{
+  min-height:100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior:smooth;
+  padding-bottom: 30px;
+}
+
+.signinl{
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-size: large;
+}
+.fifth{
+  padding-top: 0px;
+  margin-top: -10%;
+}
+.second {
+  color: #FEBE10; /* Assuming you want white text for contrast */
+  font-family: 'Arial', sans-serif; /* Example font for contrast */
+}
+
+/* Example for other text elements, adjust as needed */
+.signinl {
+  color: #000000; /* Assuming you want black text for contrast */
+  font-family: 'Times New Roman', Times, serif; /* Example font for contrast */
+}
+.first{
+  font-weight: 300;
+  /* box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .5); */
+  background-position: absolute;
+  backface-visibility: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 0 0 2000px rgba(12, 13, 31, 0.3);
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0) scale(1, 1);
+  margin-top: 200px;
+  margin-right: 60px;
+  margin-left: 1000px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 3px;
+  
+}
+.first {
+  background-color: rgba(255,  255,  255,  0.1); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect to simulate frosted glass */
+  box-shadow:  0  4px  6px rgba(0,  0,  0,  0.1),  0  1px  3px rgba(0,  0,  0,  0.08); /* Darker box shadow */
+}
+.second {
+  font-family: 'Lobster', cursive; /* Majestic but readable font */
+  font-size:  3em; /* Adjust size as needed */
+  margin-top:  20px; /* Move the title a little below the current position */
+}
+
+
+/* Text Fields and Headings within the First Div */
+.firsts input,
+.firsts label,
+.firsts h2,
+.first link{
+  font-family: 'Lobster', cursive; /* Font that suits the style of the main heading */
+  color: #000000;
+}
+
+.second {
+  font-family: 'Chivo', sans-serif; /* A modern sans-serif font */
+  font-size:  3em;
+  color: #FEBE10; /* Light color for contrast against a dark background */
+  margin-top:  20px;
+  text-shadow:  2px  2px  4px rgba(0,  0,  0,  0.5); /* Optional shadow for text */
+}
+
+.firsts h1 {
+  font-family: 'Chivo', sans-serif;
+  color: #5a450c;
+}
+div:not(.first) {
+  box-shadow: none;
+}
+
+.signup-text-button {
+  display: inline-flex; /* Align text and button inline */
+  align-items: center; /* Vertically align text and button */
+}
+
+.signupl {
+  color: black; /* Make the text black */
+  font-family: 'Times New Roman', Times, serif; /* Change the font style */
+  margin-right:  5px; /* Add some space between the text and the button */
+}
+
+.signup-button {
+  background-color: #4CAF50; /* Green background for the button */
+  border: none;
+  color: rgb(19, 19, 19); /* White text for the button */
+  padding:  15px  32px; /* Padding for the button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:  16px;
+  margin:  4px  2px;
+  cursor: pointer;
+  border-radius:  4px; /* Rounded corners for the button */
+}
+
+.signup-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+.signupl,h4{
+  text-decoration: double;
+  color: #0b0a0a;
+}

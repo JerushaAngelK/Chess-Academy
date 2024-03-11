@@ -1,0 +1,17 @@
+.online-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.online-courses > .card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card to occupy 33.33% of the container with a margin between them */
+    margin-bottom: 20px;
+}
+.add-button {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    left: 1200px;
+}
